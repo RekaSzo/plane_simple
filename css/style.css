@@ -1,4 +1,4 @@
-body{
+body {
 margin: 0;
 padding: 0;
 width: 100%;
@@ -14,7 +14,7 @@ margin: 0;
 padding: 0;
 }
 h3 {
-font-family: Oswald;
+font-family: "Arvo";
 font-weight: normal;
 font-size: 16px;
 text-align: center;
@@ -24,51 +24,14 @@ z-index: 1;
 position: relative;
 }
 
-
-// positioning of the elements on screen + container of each slide
-
-.center { margin: 0 auto; }
-.content{ margin: 0 auto; width: 960px; }
-.clear { clear: both; }
-
-// add image with black background + add 60% opacity to header
-
-#header {
-width: 100%;
-background: url('../img/header-bg.png');
-height: 80px;
-position: fixed;
-margin-top: 30px;
-overflow: hidden;
+#company_name {
+  margin: 30px 0 0 0;
 }
 
-// float logo to left
-#nav {
-width: 410px;
-float: right;
-margin-top: 0px;
-}
+/*  positioning of the elements on screen + container of each slide */
 
-#nav ul {
-display: block;
-margin: 0;
-list-style: none;
-}
+.content{ margin: 0 auto; max-width: 960px; }
 
-// float navigation to right
-#nav li{
-margin-top: 9px;
-float: left;
-padding-left: 21px;
-}
-
-#nav li a {
-color: #fff;
-opacity:0.6;
-font-size: 16px;
-text-decoration: none;
-font-family: "Arvo";
-}
 
 
 .navbar {
@@ -91,7 +54,7 @@ font-family: "Arvo";
   background: #ddd;
 }
 
-// adding styles to slide_title, images, quotes container
+/*  adding styles to slide_title, images, quotes container */
 
 .slide_title {
 font-family: "Arvo";
@@ -103,53 +66,55 @@ margin: 50px auto;
 
 .slide_text_white { font-family:"Oswald"; margin: 70px 0 0 75px; color: #fff; font-size: 20px; }
 .slide_text_gray { font-family:"Oswald"; margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; }
-.text_container { width: 800px; margin: 0 auto; }
-
-#plane-logo{ background: url('../img/plane-logo.png')no-repeat; width: 48px; height: 77px; margin: 0 auto; position: relative; bottom: -35px;}
-#christmas_tree { background: url('../img/christmas-tree.png')no-repeat; width: 48px; height: 77px; margin: 0 auto; position: relative; bottom: -35px;}
 
 
-// each slide will have a background image or white background color with fixed position
-// add  padding to each slide to center the elements inside it
+#plane-logo{ background: url('../img/plane-logo.png')no-repeat; width: auto;; height: auto;
+/* margin: 0 auto; position: relative; bottom: -35px;} */
 
-#slide1, #slide2{ width: 100%; }
+
+/* each slide will have a background image or white background color with fixed position */
+/* add  padding to each slide to center the elements inside it */
+
+
 
 #slide1 {
-background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
+background:url('../img/slide1.jpg') no-repeat fixed;
 color: #fff;
-height: 600px;
 margin: 0;
-padding: 200px 0 260px 0;
+padding: 10px 0 0 0;
 background-size: cover;
 }
-#slide2{
+
+#slide2 {
 background-color: #fff;
 color: #333333;
-height: 300px;
-padding: 200px 0;
 margin: 0 auto;
+padding: 10px 0 0 0;
 overflow: hidden;
 }
-#slide3{
+
+#slide3 {
 background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
 color: #fff;
-height: 600px;
-padding: 170px 0 0 0;
+padding: 10px 0 0 0;
 background-size: cover;
 }
-#slide4{
+
+#slide4 {
 background-color: #fff;
 color: #333333;
-height: 300px;
-padding: 200px 0;
 margin: 0 auto;
+padding: 10px 0 0 0;
 overflow: hidden;
 }
 #slide5{
 background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
 color: #fff;
-height: 200px;
-padding: 200px 0;
 margin: 0 auto;
+padding: 10px 0 0 0;
 background-size: cover;
+}
+
+.slide {
+  height: 600px;
 }
