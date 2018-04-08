@@ -24,8 +24,13 @@ z-index: 1;
 position: relative;
 }
 
+/* .cool-color {
+  color: blue;
+}
+*/
+
 #company_name {
-  margin: 30px 0 0 0;
+  padding: 175px 0 0 0;
 }
 
 /*  positioning of the elements on screen + container of each slide */
@@ -64,18 +69,19 @@ text-align: left;
 margin: 50px auto;
 }
 
-.slide_text_white { font-family:"Oswald"; margin: 70px 0 0 75px; color: #fff; font-size: 20px; }
-.slide_text_gray { font-family:"Oswald"; margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; }
+.slide_text_white { font-family:"Arvo"; margin: 70px 0 0 75px; color: #fff; font-size: 20px; }
+.slide_text_gray { font-family:"Arvo"; margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; }
 
 
-#plane-logo{ background: url('../img/plane-logo.png')no-repeat; width: auto;; height: auto;
-/* margin: 0 auto; position: relative; bottom: -35px;} */
+/*  #plane-logo{ background: url('../img/plane-logo.png')no-repeat; width: auto; height: auto; margin: 0 auto; position: relative; bottom: -35px;}
 
 
 /* each slide will have a background image or white background color with fixed position */
 /* add  padding to each slide to center the elements inside it */
 
-
+.slide {
+  height: 600px;
+}
 
 #slide1 {
 background:url('../img/slide1.jpg') no-repeat fixed;
@@ -113,8 +119,4 @@ color: #fff;
 margin: 0 auto;
 padding: 10px 0 0 0;
 background-size: cover;
-}
-
-.slide {
-  height: 600px;
 }
