@@ -30,33 +30,10 @@ position: relative;
 }
 
 /*  positioning of the elements on screen + container of each slide */
-
 .content{ margin: 0 auto; max-width: 960px; text-align: center; }
 
 
-
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.navbar a {
-  float: right;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background: #ddd;
-}
-
 /*  adding styles to slide_title, images, quotes container */
-
 .slide_title {
 font-family: "Arvo";
 font-weight: normal;
@@ -121,7 +98,7 @@ background-size: cover;
 .fa {
   padding: 20px;
   font-size: 50px;
-  width: 59px;
+  width: 58px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -162,3 +139,35 @@ background-size: cover;
   background: #125688;
   color: white;
 }
+
+/*
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+
+
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+*/
