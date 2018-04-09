@@ -35,7 +35,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#slide1" class="active" title="Next Section">HOME </a></li>
           <li><a href="#slide2" title="Next Section">FIND YOUR FLIGHT </a></li>
-          <li><a href="#slide3" title="Next Section">NEWS </a></li>
+          <li><a href="#slide3" title="Next Section">EXPLORE </a></li>
           <li><a href="#slide4" title="Next Section">ABOUT US </a></li>
           <li><a href="#slide5" title="Next Section">CONTACT </a></li>
         </ul>
@@ -70,8 +70,8 @@
 
     <div id="slide3" class="slide">
       <div class="content">
-          <h3 class="slide_title">MAP</h3>
-          <h3 class="slide_text_white">FIND YOUR SMULTRONSTÄLLE</h3>
+          <h3 class="slide_title">EXPLORE</h3>
+          <!--h3 class="slide_text_white">FIND YOUR SMULTRONSTÄLLE</h3-->
           <div id="map" style="width:400px; height: 400px; background: gray;"></div>
         </div>
       </div>
@@ -145,27 +145,13 @@
         </div>
       </div>
 
-      <script>
-        function initMap() {
-          var uluru = {lat: 47.481561, lng: 19.064652};
-          var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 4,
-            center: uluru
-          });
-          var marker = new google.maps.Marker({
-            position: uluru,
-            map: map
-          });
-        }
-      </script>
-      <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMir_y1SbaVWcH1uUxVqy8RJsK4dH7doE&callback=initMap">
-      </script>
-
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script src="http://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/map.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMir_y1SbaVWcH1uUxVqy8RJsK4dH7doE&callback=initMap"></script>
+
 
 
 </body>
