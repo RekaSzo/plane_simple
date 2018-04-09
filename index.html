@@ -70,8 +70,9 @@
 
     <div id="slide3" class="slide">
       <div class="content">
-          <h3 class="slide_title">NEWS </h3>
-          <h3 class="slide_text_white">TEXT 2 </h3>
+          <h3 class="slide_title">MAP</h3>
+          <h3 class="slide_text_white">FIND YOUR SMULTRONSTÄLLE</h3>
+          <div id="map" style="width:400px; height: 400px; background: gray;"></div>
         </div>
       </div>
     </div>
@@ -96,8 +97,7 @@
             <a href="https://www.linkedin.com" class="fa fa-linkedin" target="_blank"></a>
             <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
             <h3 class="slide_text_white"> <p> Stalk us... </p> </h3>
-
-            <!--h3 class="slide_text_white"> <p>... or drop us a lines</p></h3>
+            <!--p>... or drop us a lines</p>
               <div class="container">
                 <form action="/action_page.php">
                   <div class="row">
@@ -129,29 +129,44 @@
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-25">
-                      <label for="subject">Subject</label>
-                    </div>
-                    <div class="col-75">
-                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <input type="submit" value="Submit">
+                  <div class="col-25">
+                  <label for="subject">Subject</label>
                 </div>
-              </form>
-            </div-->
+                <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              </div>
+            </div>
+            <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div-->
 
         </div>
       </div>
 
-
-
+      <script>
+        function initMap() {
+          var uluru = {lat: 47.481561, lng: 19.064652};
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 4,
+            center: uluru
+          });
+          var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+          });
+        }
+      </script>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMir_y1SbaVWcH1uUxVqy8RJsK4dH7doE&callback=initMap">
+      </script>
 
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script src="http://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js"></script>
+
 
 </body>
 </html>

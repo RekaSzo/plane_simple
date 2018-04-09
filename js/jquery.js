@@ -29,5 +29,4 @@ $(this).addClass('active');
       }
     }
   });
-
 });
