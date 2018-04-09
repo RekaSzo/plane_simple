@@ -94,6 +94,10 @@ padding: 10px 0 0 0;
 background-size: cover;
 }
 
+#map {
+padding: 50px 0 0 0;
+}
+
 /* Rounded buttons */
 .fa {
   padding: 20px;
