@@ -46,9 +46,6 @@ margin: 50px auto;
 .slide_text_gray { font-family:"Arvo"; margin: 70px 0 0 75px; color: #94a4a4; font-size: 18px; }
 
 
-/*  #plane-logo{ background: url('../img/plane-logo.png')no-repeat; width: auto; height: auto; margin: 0 auto; position: relative; bottom: -35px;}
-
-
 /* each slide will have a background image or white background color with fixed position */
 /* add  padding to each slide to center the elements inside it */
 
@@ -58,9 +55,9 @@ margin: 50px auto;
 
 .circle-text {
 display: table-cell;
-height: 350px; /*change this and the width
+height: 300px; /*change this and the width
 for the size of your initial circle*/
-width: 350px;
+width: 300px;
 text-align: center;
 vertical-align: middle;
 border-radius: 50%;
@@ -70,6 +67,7 @@ color: #fff;
 font-family: "Arvo";
 font-size:: 18px ;
 opacity: 0.7;
+margin: auto 0
 
 }
 
@@ -123,10 +121,8 @@ margin-left: auto;
   padding: 20px;
   font-size: 50px;
   width: 58px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
+  margin: 50px 20px;
+
 }
 
 .fa:hover {
@@ -163,35 +159,3 @@ margin-left: auto;
   background: #125688;
   color: white;
 }
-
-/*
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-}
-
-label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-}
-
-
-
-
-.col-25 {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
-}
-
-.col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
-}
-
-*/

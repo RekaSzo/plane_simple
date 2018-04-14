@@ -40,8 +40,9 @@
           <li><a href="#slide5" title="Next Section">CONTACT </a></li>
         </ul>
       </div>
+      </div>
     </nav>
-    </div>
+
 
 <!-- HEADER START-->
 <!-- added header tag logo and navigation inside -->
@@ -54,97 +55,56 @@
 <!-- inside of each slide there is a class of content to center the elements -->
 
     <div id="slide1" class="slide">
-      <div class="content">
-        <div id="plane-logo"> </div>
-          <h2 id="company_name">PLANE SIMPLE </h2>
+      <div class="container">
+        <h2 id="company_name">PLANE SIMPLE </h2>
       </div>
     </div>
 
     <div id="slide2" class="slide">
-      <div class="content">
-          <h3 class="slide_title">FIND YOUR FLIGHT </h3>
-          <h3 class="slide_text_gray">TEXT 1 </h3>
-        </div>
+      <div class="container">
+        <h3 class="slide_title">FIND YOUR FLIGHT </h3>
+        <h3 class="slide_text_gray">TEXT 1 </h3>
       </div>
     </div>
 
     <div id="slide3" class="slide">
-      <div class="content">
-          <h3 class="slide_title">EXPLORE</h3>
-          <!--h3 class="slide_text_white">FIND YOUR SMULTRONSTÄLLE</h3-->
-          <div id="map" style="width:300px; height: 300px; background: gray;"></div>
-          <div class="circle-text"> insert random text here</div>
-        </div>
+      <div class="container">
+        <h3 class="slide_title">EXPLORE</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <div id="map" style="width: 300px; height: 300px; background: gray; position: relative; overflow: hidden; margin:0 auto"></div>
+            </div>
+            <div class="col-md-6">
+              <div class="circle-text" > insert random text here</div>
+            </div>
+          </div>
       </div>
     </div>
 
     <div id="slide4" class="slide">
-      <div class="content">
-          <h3 class="slide_title">ABOUT US </h3>
-          <img src="img/about_us_img.png" width="350" height="350" alt="Dezso_Reka" align="left" hspace="40">
-          <h3 class="slide_text_gray"> <p>Music speaks louder than words </p> </h3>
-          <iframe src="https://open.spotify.com/embed/user/1139982552/playlist/1MW5fV99FX36eaCU7j4MYu" width="290" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
+      <div class="container">
+        <h3 class="slide_title">ABOUT US </h3>
+        <!--div class="row">
+          <div class="col-md-6"-->
+        <img src="img/about_us_img.png" width="350" height="350" alt="Dezso_Reka" align="left" hspace="40">
+        <!--/div-->
+        <!--div class="col-md-6"-->
+        <h3 class="slide_text_gray"> <p>Music speaks louder than words </p> </h3>
+        <iframe src="https://open.spotify.com/embed/user/1139982552/playlist/1MW5fV99FX36eaCU7j4MYu" width="290" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <!--/div-->
       </div>
     </div>
 
-
     <div id="slide5" class="slide">
-      <div class="content">
-          <h3 class="slide_title">CONTACT </h3>
-            <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
-            <a href="https://twitter.com" class="fa fa-twitter" target="_blank"></a>
-            <a href="https://www.google.co.uk" class="fa fa-google" target="_blank"></a>
-            <a href="https://www.linkedin.com" class="fa fa-linkedin" target="_blank"></a>
-            <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
-
-            <!--h3 class="slide_text_white"> <p> Stalk us... </p> </h3-->
-            <!--p>... or drop us a lines</p>
-              <div class="container">
-                <form action="/action_page.php">
-                  <div class="row">
-                    <div class="col-25">
-                      <label for="fname">First Name</label>
-                    </div>
-                    <div class="col-75">
-                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-25">
-                      <label for="lname">Last Name</label>
-                    </div>
-                    <div class="col-75">
-                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-25">
-                      <label for="country">Country</label>
-                    </div>
-                    <div class="col-75">
-                      <select id="country" name="country">
-                        <option value="australia">UK</option>
-                        <option value="canada">SWEDEN</option>
-                        <option value="usa">HUNGARY</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="row">
-                  <div class="col-25">
-                  <label for="subject">Subject</label>
-                </div>
-                <div class="col-75">
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-              </div>
-            </div>
-            <div class="row">
-            <input type="submit" value="Submit">
-          </div>
-        </form>
-      </div-->
-        </div>
+      <div class="container">
+        <h3 class="slide_title">CONTACT </h3>
+          <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
+          <a href="https://twitter.com" class="fa fa-twitter" target="_blank"></a>
+          <a href="https://www.google.co.uk" class="fa fa-google" target="_blank"></a>
+          <a href="https://www.linkedin.com" class="fa fa-linkedin" target="_blank"></a>
+          <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
       </div>
+    </div>
 
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
