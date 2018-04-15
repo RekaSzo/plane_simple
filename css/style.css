@@ -109,7 +109,6 @@ background-size: cover;
 }
 
 .map {
-padding: 50px 0 0 0;
 display:block;
 margin-right: auto;
 margin-left: auto;
@@ -123,8 +122,9 @@ margin-left: auto;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-
-
+  float: none;
+  float: none;
+  margin: 100px 0 0 140px;
 }
 
 .fa:hover {
