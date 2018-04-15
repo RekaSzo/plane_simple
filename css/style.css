@@ -17,7 +17,6 @@ h3 {
 font-family: "Arvo";
 font-weight: normal;
 font-size: 16px;
-text-align: center;
 margin: 5px 0;
 padding: 0;
 z-index: 1;
@@ -43,7 +42,7 @@ margin: 50px auto;
 }
 
 .slide_text_white { font-family:"Arvo"; margin: 70px 0 0 75px; color: #fff; font-size: 18px; }
-.slide_text_gray { font-family:"Arvo"; margin: 70px 0 0 75px; color: #94a4a4; font-size: 18px; }
+.slide_text_gray { font-family:"Arvo"; color: #94a4a4; font-size: 18px; }
 
 
 /* each slide will have a background image or white background color with fixed position */
@@ -67,7 +66,7 @@ color: #fff;
 font-family: "Arvo";
 font-size:: 18px ;
 opacity: 0.7;
-margin: auto 0
+margin: auto 0;
 
 }
 
@@ -121,6 +120,8 @@ margin-left: auto;
   padding: 20px;
   width: 55px;
   margin: 40px;
+  text-align: center;
+  text-decoration: none;
   border-radius: 50%;
 
 
